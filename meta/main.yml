@@ -1,7 +1,17 @@
+---
 galaxy_info:
-   author: Naresh
-   Namespace: leaddevops # this is the Namespace in galaxy.ansible.com OR the github username 
-   
-   platforms:
-     - ubuntu 
-     - amazon
+  author: Naresh
+  namespace: leaddevops
+  role_name: git-client
+  description: Install and configure git-client on your system.
+  company: none
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: Debian
+    - name: Amazon
+
+  galaxy_tags:
+    - jenkins
+    - server
+    - system
