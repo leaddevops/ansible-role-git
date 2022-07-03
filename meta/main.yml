@@ -1,0 +1,7 @@
+galaxy_info:
+   author: Naresh
+   Namespace: leaddevops # this is the Namespace in galaxy.ansible.com OR the github username 
+   
+   platforms:
+     - ubuntu 
+     - amazon
